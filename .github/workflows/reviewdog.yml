@@ -15,3 +15,8 @@ jobs:
           reporter: github-pr-review
           level: warning
           textlint_flags: "articles/**"
+      - name: markdownlint-github-pr-review
+        uses: reviewdog/action-markdownlint@v0.1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
