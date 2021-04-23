@@ -1,8 +1,8 @@
 name: reviewdog
 on: [pull_request]
 jobs:
-  textlint:
-    name: runner / textlint
+  dog-bark:
+    name: runner / lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -20,6 +20,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           level: warning
+          filter_mode: nofilter
           fail_on_error: true
           reporter: github-pr-review
           markdownlint_flags: books articles
