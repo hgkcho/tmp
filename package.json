@@ -1,0 +1,26 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zen": "./node_modules/zenn-cli/bin/zenn.js",
+    "zen:h": "./node_modules/zenn-cli/bin/zenn.js -h",
+    "preview": "./node_modules/zenn-cli/bin/zenn.js preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hgkcho/tmp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hgkcho/tmp/issues"
+  },
+  "homepage": "https://github.com/hgkcho/tmp#readme",
+  "dependencies": {
+    "zenn-cli": "^0.1.79"
+  }
+}
