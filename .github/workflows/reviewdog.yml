@@ -24,4 +24,4 @@ jobs:
           filter_mode: nofilter
           fail_on_error: true
           reporter: github-pr-review
-          markdownlint_flags: books articles
+          markdownlint_flags: articles/**
