@@ -22,5 +22,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           level: warning
           filter_mode: nofilter
+          fail_on_error: true
           reporter: github-pr-review
-          markdownlint_flags: articles/**
+          markdownlint_flags: articles/** books/**
