@@ -21,6 +21,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Install JS dependencies
+        run: yarn install
+
       - name: textlint-github-pr-review
         uses: tsuyoshicho/action-textlint@v1
         with:
