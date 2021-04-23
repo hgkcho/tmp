@@ -37,5 +37,5 @@ jobs:
           filter_mode: nofilter
           fail_on_error: true
           reporter: github-pr-review
-          markdownlint_flags: . -i node_modules
+          markdownlint_flags: artworks/**
 
