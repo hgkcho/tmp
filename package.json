@@ -8,7 +8,7 @@
     "zen": "./node_modules/zenn-cli/bin/zenn.js",
     "zen:h": "./node_modules/zenn-cli/bin/zenn.js -h",
     "preview": "./node_modules/zenn-cli/bin/zenn.js preview",
-    "fix":  "yarn textlint --fix articles books && yarn markdownlint -f articles books"
+    "fix": "yarn textlint --fix articles books && yarn markdownlint -c .markdownlint.json -f articles books"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "dependencies": {
     "zenn-cli": "^0.1.79"
   },
+  "textlint": ".textlintrc.json",
   "devDependencies": {
     "markdownlint-cli": "^0.27.1",
     "textlint": "^11.9.0",
