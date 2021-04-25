@@ -19,7 +19,7 @@
       }
     },
     "sentence-length": {
-      "max": 120
+      "max": 200
     },
     "preset-ja-spacing": {
       "ja-space-between-half-and-full-width": {
