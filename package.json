@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "web": "arelo -t articles/ -p '**/*.{md}' yarn zen",
     "zen": "./node_modules/zenn-cli/bin/zenn.js",
     "zen:h": "./node_modules/zenn-cli/bin/zenn.js -h",
     "preview": "./node_modules/zenn-cli/bin/zenn.js preview",
