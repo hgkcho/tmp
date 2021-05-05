@@ -5,6 +5,12 @@
     }
   },
   "rules": {
+    "ja-no-mixed-period": {
+      "periodMark": "。",
+      "allowPeriodMarks": [],
+      "allowEmojiAtEnd": true,
+      "forceAppendPeriod": false
+    },
     "preset-ja-technical-writing": {
       "no-exclamation-question-mark": {
         "allowFullWidthExclamation": true,
