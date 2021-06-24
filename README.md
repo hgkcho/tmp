@@ -2,7 +2,7 @@
 
 src for zenn
 
-## Quick start
+## dev
 
 ```
 yarn zen
